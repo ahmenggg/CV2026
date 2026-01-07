@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV – Vianika Meylani</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f5f5;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .cv {
+      background: #ffffff;
+      max-width: 900px;
+      width: 100%;
+      border-radius: 18px;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 32% 68%;
+    }
+
+    /* LEFT */
+    .left {
+      background: #7b1c1c;
+      color: #ffffff;
+      padding: 35px 25px;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .profile img {
+      width: 140px;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #ffffff;
+      margin-bottom: 15px;
+    }
+
+    .profile h1 {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .profile p {
+      font-size: 13px;
+      margin-top: 6px;
+      opacity: 0.9;
+    }
+
+    .left-section {
+      margin-top: 25px;
+    }
+
+    .left-section h3 {
+      font-size: 15px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid rgba(255,255,255,0.4);
+      padding-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .left-section p {
+      font-size: 13px;
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+
+    /* RIGHT */
+    .right {
+      padding: 40px 35px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      font-size: 18px;
+      color: #7b1c1c;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #e0b4b4;
+      padding-bottom: 6px;
+    }
+
+    .summary {
+      font-size: 14px;
+      line-height: 1.8;
+      color: #333333;
+      text-align: justify;
+    }
+
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    .info-table td {
+      padding: 8px 6px;
+      vertical-align: top;
+    }
+
+    .info-table td:first-child {
+      width: 35%;
+      font-weight: 600;
+      color: #7b1c1c;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      font-size: 14px;
+      margin-bottom: 10px;
+      padding-left: 18px;
+      position: relative;
+      color: #333333;
+    }
+
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #7b1c1c;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .cv {
+        grid-template-columns: 1fr;
+      }
+
+      .left {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="cv">
+
+    <!-- LEFT -->
+    <div class="left">
+      <div class="profile">
+        <img src="amenggggg.jpg" alt="Vianika Meylani">
+        <h1>Vianika Meylani</h1>
+        <p>Senior High School Student</p>
+      </div>
+
+      <div class="left-section">
+        <h3>Contact</h3>
+        <p>Email: vianika.meylani14@sma.belajar.id</p>
+        <p>Phone: 0813-9678-0462</p>
+        <p>East Lampung, Indonesia</p>
+      </div>
+
+      <div class="left-section">
+        <h3>Interests</h3>
+        <p>Biology</p>
+        <p>Public Speaking</p>
+        <p>Student Leadership</p>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right">
+
+      <div class="section">
+        <h2>Summary</h2>
+        <p class="summary">
+          Senior high school student actively engaged in academic and organizational activities, with a strong interest in Biology. Experienced in student leadership, communication, and event coordination, with a commitment to responsibility, adaptability, and continuous self-development.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Personal Information</h2>
+        <table class="info-table">
+          <tr><td>Full Name</td><td>Vianika Meylani</td></tr>
+          <tr><td>Date of Birth</td><td>23 May 2007</td></tr>
+          <tr><td>Gender</td><td>Female</td></tr>
+          <tr><td>Nationality</td><td>Indonesian</td></tr>
+          <tr><td>School</td><td>SMA Gunung Madu</td></tr>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>Achievements</h2>
+        <ul>
+          <li>Vice President of Student Council (2024–2025)</li>
+          <li>Head of Arts & Sports Division, Student Council (2023–2024)</li>
+          <li>4th Place – National Science Olympiad (Biology), 2024</li>
+          <li>1st Place – Science Olympiad (School Level), 2019</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
